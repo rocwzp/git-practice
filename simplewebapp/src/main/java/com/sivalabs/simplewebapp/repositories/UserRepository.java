@@ -59,7 +59,9 @@ public class UserRepository
 		for (User user : users)
 		{
 			if(userName.equals(user.getUserName()) && password.equals(user.getPassword()))
-					return user;
+			{
+				return user;
+			}
 		}
 		return null;
 	}

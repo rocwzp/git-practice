@@ -5,7 +5,7 @@
   <artifactId>simplewebapp</artifactId>
   <packaging>war</packaging>
   <version>0.0.1</version>
-  <name>quickstart-web-app Maven Webapp</name>
+  <name>simple-webapp</name>
   
   <url>http://sivalabs.blogspot.in</url>
   <description>A Maven project using SpringMVC 3.1.x, jQuery and Log4j/Logback configuration.</description>
