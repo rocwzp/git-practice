@@ -27,7 +27,7 @@ public class UserController
 	@Autowired
 	private UserService userService;
 	
-	@RequestMapping({"/",/welcome"})
+	@RequestMapping({"/","/welcome"})
 	public String welcome(Model model) 
 	{
 		List<User> users = userService.findAllUsers();
