@@ -3,6 +3,8 @@
  */
 package com.sivalabs.simplewebapp.entities;
 
+import java.util.Date;
+
 /**
  * @author Siva
  *
@@ -14,6 +16,8 @@ public class User
 	private String password;
 	private String fullName;
 	private String email;
+	private Date dob;
+	private String phone;
 	
 	public Integer getUserId() {
 		return userId;
@@ -51,5 +55,20 @@ public class User
 	{
 		this.email = email;
 	}
-	
+	public Date getDob()
+	{
+		return dob;
+	}
+	public void setDob(Date dob)
+	{
+		this.dob = dob;
+	}
+	public String getPhone()
+	{
+		return phone;
+	}
+	public void setPhone(String phone)
+	{
+		this.phone = phone;
+	}
 }
