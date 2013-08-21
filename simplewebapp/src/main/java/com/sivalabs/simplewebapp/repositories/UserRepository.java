@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 import com.sivalabs.simplewebapp.entities.User;
 
 /**
- * @author Siva
+ * @author Siva Prasad
  *
  */
 @Repository
